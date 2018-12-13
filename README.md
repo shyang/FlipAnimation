@@ -3,7 +3,7 @@ layout: post
 title: "Flipping two views"
 ---
 
-![]({{ site.url }}/assets/flip_two_views.gif)
+![](flip_two_views.gif)
 
 This is a two phase animation:
 
@@ -44,4 +44,3 @@ This is a two phase animation:
 ```
 这是个两阶段的动画，animationDidStop:finished: 会 callback 两次，分别在注释 1 和注释 2 的位置。
 
-[完整 demo](https://github.com/shyang/FlipAnimation/blob/master/FlipAnimation/ViewController.m)
